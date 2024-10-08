@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    background-color: black;
+}
+nav h1{
+    color: white;
+    font-size: 30px;
+}
+nav img {
+    border-radius: 15%;
+    height: 50px;
+}
+section {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+section h1{
+    padding-top: 25px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 170px;
+    padding-top: 25px;
+    height: 100dvh;
+    
+}
+.bike{
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(70, 70, 70, 0.545);
+    padding: 10px;
+    gap: 30px;
+    
+}
+
+.img-bike{
+    padding: 15px;
+    width: 290px;
+    height: 240px;
+}
+
+.bike h2{
+    font-size: 20px;
+    width: 100%;
+    text-align: start;
+    padding-left: 25px;
+
+}
+
+.bike h3{
+    font-size: 15x;
+    width: 100%;
+    text-align: start;
+    text-decoration: line-through;
+    padding-left: 25px;
+    color: #888787;
+
+}
+
+button{
+    width: 290px;
+    height: 50px;
+    background-color: #00A750;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
